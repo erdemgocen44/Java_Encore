@@ -44,5 +44,14 @@ public class C09_WrapperClasses {
 
         System.out.println("GENEL TOPLAM = " + toplam);
 
+        System.out.println("Integer.MAX_VALUE = " + Integer.MAX_VALUE);
+
+        System.out.println("Integer.MIN_VALUE = " + Integer.MIN_VALUE);
+
+        char chr = 'a';
+        // bunu büyütmek için;
+
+        System.out.println("chr=" + Character.toUpperCase(chr));
+
     }
 }
