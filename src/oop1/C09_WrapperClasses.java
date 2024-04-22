@@ -42,7 +42,7 @@ public class C09_WrapperClasses {
 
         int toplam = Integer.parseInt(sayi5) + Integer.parseInt(sayi6);
 
-        System.out.println(toplam);
+        System.out.println("GENEL TOPLAM = " + toplam);
 
     }
 }
