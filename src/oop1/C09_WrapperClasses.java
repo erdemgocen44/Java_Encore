@@ -1,5 +1,7 @@
 package oop1;
 
+import java.util.Scanner;
+
 public class C09_WrapperClasses {
     public static void main(String[] args) {
         int sayi = 10;
@@ -30,11 +32,13 @@ public class C09_WrapperClasses {
 
         Integer sayi3 = sayi;
 
-Scanner
+        Scanner scanner = new Scanner(System.in);
 
-        String sayi5 = "23";
+        System.out.println("Lütfen iki sayi giriniz: ");
 
-        String sayi6 = "45";
+        String sayi5 = scanner.nextLine();
+
+        String sayi6 = scanner.nextLine();
 
         int toplam = Integer.parseInt(sayi5) + Integer.parseInt(sayi6);
 
