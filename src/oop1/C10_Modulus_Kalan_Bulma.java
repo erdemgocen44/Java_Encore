@@ -8,12 +8,28 @@ public class C10_Modulus_Kalan_Bulma {
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("Lutfen üç basamakli pozitif bir tamsayi giriniz: ");
-        int sayi = scanner.nextInt();
+        int girilenSayi = scanner.nextInt();
 
-        int sayi1 = sayi / 100;
-        int sayi2 = (sayi / 10) % 10;
-        int sayi3 = sayi % 10;
+        int sayi = girilenSayi;
 
-        System.out.println("Vermis olduğunuz sayinin rakamlari toplami: " + sayi1 + sayi2 + sayi3);
+        int birlerBasamagi = 0;
+
+        int rakamlarToplami = 0;
+
+        birlerBasamagi = sayi % 10;
+        rakamlarToplami += birlerBasamagi;
+        sayi /= 10;
+
+        birlerBasamagi = sayi % 10;
+        rakamlarToplami += birlerBasamagi;
+        sayi /= 10;
+
+        birlerBasamagi = sayi % 10;
+        rakamlarToplami += birlerBasamagi;
+        sayi /= 10; // 3.rakamdan kucuk olur.
+
+        System.out.println(girilenSayi + " sayisinin rakamlar toplami: " + rakamlarToplami);
+
+        scanner.close();
     }
 }
