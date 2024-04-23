@@ -7,7 +7,7 @@ public class C10_Modulus_Kalan_Bulma2 {
 
         Scanner scanner = new Scanner(System.in);
 
-        System.out.println("Lutfen üç basamakli pozitif bir tamsayi giriniz: ");
+        System.out.println("Lutfen pozitif bir tamsayi giriniz: ");
         int girilenSayi = scanner.nextInt();
 
         int sayi = girilenSayi;
@@ -26,7 +26,59 @@ public class C10_Modulus_Kalan_Bulma2 {
 
         birlerBasamagi = sayi % 10;
         rakamlarToplami += birlerBasamagi;
-        sayi /= 10; // 3.rakamdan kucuk olur.
+        sayi /= 10;
+
+        birlerBasamagi = sayi % 10;
+        rakamlarToplami += birlerBasamagi;
+        sayi /= 10;
+       
+        birlerBasamagi = sayi % 10;
+        rakamlarToplami += birlerBasamagi;
+        sayi /= 10;
+       
+        birlerBasamagi = sayi % 10;
+        rakamlarToplami += birlerBasamagi;
+        sayi /= 10;
+       
+        birlerBasamagi = sayi % 10;
+        rakamlarToplami += birlerBasamagi;
+        sayi /= 10;
+       
+        birlerBasamagi = sayi % 10;
+        rakamlarToplami += birlerBasamagi;
+        sayi /= 10;
+        
+        birlerBasamagi = sayi % 10;
+        rakamlarToplami += birlerBasamagi;
+        sayi /= 10;
+       
+        birlerBasamagi = sayi % 10;
+        rakamlarToplami += birlerBasamagi;
+        sayi /= 10;
+       
+        birlerBasamagi = sayi % 10;
+        rakamlarToplami += birlerBasamagi;
+        sayi /= 10;
+        
+        birlerBasamagi = sayi % 10;
+        rakamlarToplami += birlerBasamagi;
+        sayi /= 10;
+        
+        birlerBasamagi = sayi % 10;
+        rakamlarToplami += birlerBasamagi;
+        sayi /= 10;
+       
+        birlerBasamagi = sayi % 10;
+        rakamlarToplami += birlerBasamagi;
+        sayi /= 10;
+       
+        birlerBasamagi = sayi % 10;
+        rakamlarToplami += birlerBasamagi;
+        sayi /= 10;
+
+        birlerBasamagi = sayi % 10;
+        rakamlarToplami += birlerBasamagi;
+        sayi /= 10; // 4.rakamdan kucuk olur.
 
         System.out.println(girilenSayi + " sayisinin rakamlar toplami: " + rakamlarToplami);
 
