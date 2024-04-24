@@ -18,5 +18,15 @@ public class C11_IncrementDecriment {
 
         System.out.println(sayi);
 
+        double dbl = 3.5;
+
+        dbl = dbl * 3;
+
+        System.out.println(dbl);
+
+        dbl *= 3;
+
+        System.out.println("Yeni deger dbl= " + dbl);
+
     }
 }
