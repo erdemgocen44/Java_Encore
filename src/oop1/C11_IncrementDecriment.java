@@ -28,5 +28,36 @@ public class C11_IncrementDecriment {
 
         System.out.println("Yeni deger dbl= " + dbl);
 
+        sayi = 10;
+
+        // sayının değerini yazdırın sonra sayının değerini 1 artırın
+
+        System.out.println(sayi++);
+        System.out.println("1 artirtik hali: " + sayi);
+
+        sayi = 10;
+
+        // sayının değerini 1 artirin sonra yazdırın
+
+        System.out.println(++sayi);
+
+        sayi = 10;
+
+        // once sayinin degerini olusturacaginiz b variable'na atayin
+        // sonra sayinin degerini 1 artırın
+
+        int b = sayi;
+        sayi++;
+
+        System.out.println("b'nin degeri: " + b + ", sayinin degeri: " + sayi);
+
+        sayi = 10;
+
+        sayi++;
+
+        b = sayi;
+
+        System.out.println("yeni b'nin degeri: " + b + ", yeni sayinin degeri: " + sayi);
+
     }
 }
