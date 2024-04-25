@@ -2,8 +2,9 @@ package oop1;
 
 public class C15_Logical_Mantiksal_Operatorler {
     public static void main(String[] args) {
-        // && (ve) mantıksal operatoru mukemmelliyetçidir ilk rastladığı falde sonucu yapıştırır
-        //& mantıksal operatoru ise işlemin sonuna gider ve sonunda karar verir
+        // && (ve) mantıksal operatoru mukemmelliyetçidir ilk rastladığı falde sonucu
+        // yapıştırır
+        // & mantıksal operatoru ise işlemin sonuna gider ve sonunda karar verir
         // || (veya) mantıksal operatoru ise olsada olur olmasada der
         int a = 10;
         int b = 15;
@@ -17,6 +18,8 @@ public class C15_Logical_Mantiksal_Operatorler {
 
         c = a >= b && 3 * a < 4 * b;
         System.out.println(c);// false yazıyor
+
+        System.out.println(3 < 5 || 6 > 7);// true yazar
 
     }
 }
