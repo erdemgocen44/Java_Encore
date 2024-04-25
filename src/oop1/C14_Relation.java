@@ -3,17 +3,17 @@ package oop1;
 public class C14_Relation {
     public static void main(String[] args) {
         int a = 10;
-        int b = 20;
+        int b = 15;
 
         System.out.println(a > b);
         boolean sonuc = a < b;
         System.out.println(sonuc);
 
-        System.out.println(a == b - 10);// true yazacak
+        System.out.println(a == b - 10);// false yazacak
 
-        System.out.println(sonuc = 15 == a);
+        System.out.println(sonuc = 15 == a);// false yazacak
 
-        System.out.println(a != b); // false yazacak
+        System.out.println(a != b); // true yazacak
 
         /*
          * !true==>false
@@ -27,6 +27,13 @@ public class C14_Relation {
          * !(5==5)==>false
          * 
          */
+        System.out.println(a != b);// true yazdırır
+
+        System.out.println(a == b); // false yazdırır
+
+        System.out.println(a != b - 5);// false yazdırır;
+
+        System.out.println(sonuc = 15 * a != 10 * b);
 
     }
 }
