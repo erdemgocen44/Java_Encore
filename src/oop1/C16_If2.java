@@ -2,7 +2,7 @@ package oop1;
 
 public class C16_If2 {
     public static void main(String[] args) {
-        int a = 120;
+        int a = 12;
         int b = 30;
 
         if (a < b) {
