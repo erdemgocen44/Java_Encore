@@ -11,5 +11,9 @@ public class C16_If2 {
             System.out.println("b sayisi a'dan kucuktur.");
 
         }
+
+        if (a > b) {
+            System.out.println("a sayisi b'den buyuktur.");
+        }
     }
 }
