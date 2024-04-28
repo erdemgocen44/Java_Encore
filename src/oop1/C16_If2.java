@@ -17,7 +17,9 @@ public class C16_If2 {
         }
 
         //if body si tek satırdan oluşuyorsa { } kullanmaya gerek yoktur
-
+        // belirlenen boolean şartı sağlanırsa ilk satır çalışır ve diğerlerine bakmaz
         
+
+
     }
 }
