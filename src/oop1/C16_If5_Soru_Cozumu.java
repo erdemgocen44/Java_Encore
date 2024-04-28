@@ -19,9 +19,9 @@ public class C16_If5_Soru_Cozumu {
 
         if (a == b && a == c && b == c)
             System.out.println("Bu bir eskenar uckendir");
-        if (a == 0 || b == 0 || c == 0)
+        else if (a == 0 || b == 0 || c == 0)
             System.out.println("Girilen deger 0'dan buyuk olmali!!");
-        if (a < 0 || b < 0 || c < 0)
+        else if (a < 0 || b < 0 || c < 0)
             System.out.println("Girilen deger eksi (-) bir sayi olamaz!!");
         else
             System.out.println("Bu bir eskenar ucken degildir");
