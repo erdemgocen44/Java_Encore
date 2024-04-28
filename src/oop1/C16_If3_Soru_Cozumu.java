@@ -12,13 +12,13 @@ public class C16_If3_Soru_Cozumu {
 
         Scanner scanner = new Scanner(System.in);
 
-        System.out.print("lutfen bir sayi giriniz : ");
+        System.out.println("lutfen bir sayi giriniz : ");
         int sayi = scanner.nextInt();
 
-        if (sayi % 5 == 0) {
+        if (sayi % 5 == 0)
             System.out.println("Bu " + sayi + " sayisi 5 ile bölünebilir ");
-        } else {
+        else
             System.out.println("Bu " + sayi + " sayisi 5 ile bölünemez ");
-        }
+
     }
 }
