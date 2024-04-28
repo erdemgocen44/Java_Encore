@@ -15,5 +15,9 @@ public class C16_If2 {
         if (a > b) {
             System.out.println("a sayisi b'den buyuktur.");
         }
+
+        //if body si tek satırdan oluşuyorsa { } kullanmaya gerek yoktur
+
+        
     }
 }
