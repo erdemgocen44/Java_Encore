@@ -21,10 +21,10 @@ public class C17_If_Else_Statement4 {
         int yas = scanner.nextInt();
 
         if (cinsiyet == 'K' && yas >= 60 || cinsiyet == 'E' && yas >= 65) { //
-            System.out.println("Tebrikler emekli olabilirsiniz");
+            System.out.println("Tebrikler emekli olabilirsiniz!");
         } else if (cinsiyet == 'E' && yas <= 64) {
-            System.out.println("Emekli olmak icin " + (65 - yas) + " yil daha calismaniz gerekir.");
+            System.out.println("Maalesef emekli olmak icin " + (65 - yas) + " yil daha calismaniz gerekir.");
         } else
-            System.out.println("Emekli olmak icin" + (60 - yas) + " yil daha calismaniz gerekir");
+            System.out.println("Maalesef emekli olmak icin " + (60 - yas) + " yil daha calismaniz gerekir");
     }
 }
