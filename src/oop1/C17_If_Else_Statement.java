@@ -15,9 +15,17 @@ public class C17_If_Else_Statement {
 
         System.out.println("Lutfen notunuzu sayı olarak giriniz: ");
 
-        int girilenNot=scanner.nextInt();
+        int girilenNot = scanner.nextInt();
 
-        if(girilenNot>=85)System.out.println("Çok iyi notunuz AA'dir");
-        else if(girilenNot>=65 &&girilenNot<=84)System.out.println("Tebrikler ,notunuz BB'dir");
-        
+        if (girilenNot >= 85 && girilenNot <= 100)
+            System.out.println("Çok iyi, notunuz AA'dir");
+        else if (girilenNot >= 65 && girilenNot <= 84)
+            System.out.println("Tebrikler, notunuz BB'dir");
+        else if (girilenNot >= 50 && girilenNot <= 64)
+            System.out.println("Notunuz CC'dir");
+        else if (girilenNot >= 0 && girilenNot <= 49)
+            System.out.println("Maalesef, notunuz DD'dir");
+        else
+            System.out.println("Lütfen geçerli bir not giriniz");
+    }
 }
