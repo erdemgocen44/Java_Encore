@@ -14,7 +14,7 @@ public class C17_If_Else_Statement4 {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Lütfen cinsiyetinizi Erkek 'E' ya da Kadin icin 'K' olarak giriniz: ");
 
-        char cinsiyet = scanner.next().charAt(0);
+        char cinsiyet = scanner.next().toUpperCase().charAt(0);
 
         System.out.println("Lütfen yasinizi giriniz: ");
 
@@ -26,5 +26,6 @@ public class C17_If_Else_Statement4 {
             System.out.println("Maalesef emekli olmak icin " + (65 - yas) + " yil daha calismaniz gerekir.");
         } else
             System.out.println("Maalesef emekli olmak icin " + (60 - yas) + " yil daha calismaniz gerekir");
+        scanner.close();
     }
 }
