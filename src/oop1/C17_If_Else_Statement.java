@@ -15,7 +15,7 @@ public class C17_If_Else_Statement {
 
         System.out.println("Lutfen notunuzu sayı olarak giriniz: ");
 
-        int girilenNot = scanner.nextInt();
+        double girilenNot = scanner.nextDouble();
 
         if (girilenNot >= 85 && girilenNot <= 100)
             System.out.println("Çok iyi, notunuz AA'dir");
@@ -27,5 +27,6 @@ public class C17_If_Else_Statement {
             System.out.println("Maalesef, notunuz DD'dir");
         else
             System.out.println("Lütfen geçerli bir not giriniz");
+        scanner.close();
     }
 }
