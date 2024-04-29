@@ -1,5 +1,31 @@
 package oop1;
 
+import java.util.Scanner;
+
 public class C17_If_Else_Statement4 {
-public static void main(String[] args) {
+    public static void main(String[] args) {
+        /*
+         * Kullnicidan cinsiyetini ve yasini alin
+         * Kadin, 60 yas ve uzeri, Erkek 65 yas ve uzeri emekli olabilir.
+         * Cinsiyet ve yasini dikkate alarak 'Emekli olabilir' veya
+         * 'Emekli olmak için .... yil calisman lazim' yazdirin.
+         */
+
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Lütfen cinsiyetinizi Erkek 'E' ya da Kadin icin 'K' olarak giriniz: ");
+
+        char cinsiyet = scanner.next().charAt(0);
+
+        System.out.println("Lütfen yasinizi giriniz: ");
+
+        int yas = scanner.nextInt();
+
+        if (cinsiyet == 'K' && yas >= 60 || cinsiyet == 'E' && yas >= 65) { //
+            System.out.println("Tebrikler emekli olabilirsiniz");
+        } else {
+            System.out.println("Eger bayansaniz emekli olmak icin" + (60 - yas) + "\n" + //
+                    " eger erkekseniz " + (65 - yas)
+                    + " yil daha calismaniz gerekir");
+        }
+    }
 }
