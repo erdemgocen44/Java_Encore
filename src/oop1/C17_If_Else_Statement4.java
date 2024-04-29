@@ -22,10 +22,9 @@ public class C17_If_Else_Statement4 {
 
         if (cinsiyet == 'K' && yas >= 60 || cinsiyet == 'E' && yas >= 65) { //
             System.out.println("Tebrikler emekli olabilirsiniz");
-        } else {
-            System.out.println("Eger bayansaniz emekli olmak icin" + (60 - yas) + "\n" + //
-                    " eger erkekseniz " + (65 - yas)
-                    + " yil daha calismaniz gerekir");
-        }
+        } else if (cinsiyet == 'E' && yas <= 64) {
+            System.out.println("Emekli olmak icin " + (65 - yas) + " yil daha calismaniz gerekir.");
+        } else
+            System.out.println("Emekli olmak icin" + (60 - yas) + " yil daha calismaniz gerekir");
     }
 }
