@@ -24,13 +24,13 @@ public class C17_If_Else_Statement3 {
         double vke = kilo * 10000 / (boy * boy);
 
         System.out.println("Vucut kitle endeksiniz : " + vke);
-        if (kilo * 10000 / boy * boy >= 30)
+        if (vke >= 30)
             System.out.println("Obez");
-        else if ((kilo * 10000) / (boy * boy) >= 25 && (kilo * 10000) / (boy * boy) <= 29)
+        else if (vke >= 25)
             System.out.println("Kilolu");
-        else if ((kilo * 10000) / (boy * boy) >= 21 && (kilo * 10000) / (boy * boy) <= 24)
+        else if (vke >= 20)
             System.out.println("Normal");
-        else if ((kilo * 10000) / (boy * boy) <= 19)
+        else if (vke >= 0)
             System.out.println("Zayif");
         else
             System.out.println("Yanlis deger girdiniz");
