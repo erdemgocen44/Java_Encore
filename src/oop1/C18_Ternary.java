@@ -17,5 +17,7 @@ public class C18_Ternary {
         else {
             System.out.println("Girdiginiz " + girilenSayi + " sayisi tek bir sayidir");
         }
+
+        
     }
 }
