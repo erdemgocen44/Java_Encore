@@ -19,7 +19,7 @@ public class C17_If_Else_Musteri_Sorusu {
         System.out.println("Lütfen aldiginiz urun listesinin fiyatini giriniz: ");
         double listeFiyati = scanner.nextDouble();
 
-        System.out.println("Urun kartiniz var mi? \nEvet icin 'E' hayir 'H' giriniz: ");
+        System.out.println("Urun kartiniz var mi? \nEvet: 'E' Hayir: 'H' ");
         char musteriKarti = scanner.next().toUpperCase().charAt(0);
         if (musteriKarti == 'E') {
             if (urunAdedi >= 10)
@@ -40,6 +40,7 @@ public class C17_If_Else_Musteri_Sorusu {
         } else {
             System.out.println("Lutfen gecerli bir karakter giriniz");
         }
+        scanner.close();
     }
 
 }
