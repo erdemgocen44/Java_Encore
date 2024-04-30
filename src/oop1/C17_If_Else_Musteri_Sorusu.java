@@ -24,7 +24,7 @@ public class C17_If_Else_Musteri_Sorusu {
         if (musteriKarti == 'E') {
             if (urunAdedi >= 10)
                 System.out.println(
-                        "Tebrikler %20 indirim kazandiniz\nKasa toplaminiz: " + (listeFiyati * urunAdedi * 0.8));
+                        "Tebrikler %20 indirim kazandiniz\nKasa toplaminiz: " + listeFiyati * urunAdedi * 0.8);
             else {
                 System.out.println("%15 indirim kazandiniz\nKasa toplaminiz: "
                         + listeFiyati * urunAdedi * 0.15);
@@ -32,10 +32,10 @@ public class C17_If_Else_Musteri_Sorusu {
         } else if (musteriKarti == 'H') {
             if (urunAdedi >= 10) {
                 System.out.println(
-                        "%15 indirim kazandiniz\nKasa toplaminiz: " + (listeFiyati * urunAdedi * 0.85));
+                        "%15 indirim kazandiniz\nKasa toplaminiz: " + listeFiyati * urunAdedi * 0.85);
             } else
                 System.out.println("%10 indirim kazandiniz\nKasa toplaminiz: "
-                        + (listeFiyati * urunAdedi * 0.9));
+                        + listeFiyati * urunAdedi * 0.9);
 
         } else {
             System.out.println("Lutfen gecerli bir karakter giriniz");
