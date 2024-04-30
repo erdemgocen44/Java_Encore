@@ -13,6 +13,8 @@ public class C18_Ternary5 {
         System.out.println("Lütfen notunuzu giriniz: ");
         int not = scanner.nextInt();
 
-        System.out.println(not >= 50 ? "Tebrikler sinifi gectiniz" : "Maalesef kaldiniz");
+        System.out.println(not >= 50 ? "Tebrikler sinifi gectiniz" : "Maalesef kaldiniz :(");
+
+        scanner.close();
     }
 }
