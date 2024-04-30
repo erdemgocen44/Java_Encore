@@ -11,13 +11,8 @@ public class C18_Ternary {
 
         System.out.println("Lutfen positif bir tam sayi giriniz: ");
         int girilenSayi = scanner.nextInt();
-        if (girilenSayi % 2 == 0)
-            System.out.println("Girdiginiz " + girilenSayi + " sayisi cift bir sayidir");
 
-        else {
-            System.out.println("Girdiginiz " + girilenSayi + " sayisi tek bir sayidir");
-        }
+        System.out.println(girilenSayi % 2 == 0 ? "Girilen sayi cifttir" : "Girilen sayi tektir");
 
-        
     }
 }
