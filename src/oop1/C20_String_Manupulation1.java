@@ -17,5 +17,14 @@ public class C20_String_Manupulation1 {
 
         System.out.println(str.toLowerCase());
 
+        System.out.println(str);// atama yapmadigimiz surece stringde yaptigimiz degisikler kalici olmaz
+
+        str = str.toLowerCase();
+        System.out.println(str);
+
+
+
+
+        
     }
 }
