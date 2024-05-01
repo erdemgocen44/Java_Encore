@@ -11,7 +11,7 @@ public class C19_Switch_Statement2 {
 
         Scanner scanner = new Scanner(System.in);
 
-        System.out.println("Lütfen ISTQB harflerinden birini seciniz: ");
+        System.out.println("Lutfen anlamini ogrenmek istediginiz \nISTQB harflerinden birini seciniz: ");
         char harf = scanner.next().toUpperCase().charAt(0);
         switch (harf) {
             case 'I' -> System.out.println("International");
@@ -21,5 +21,6 @@ public class C19_Switch_Statement2 {
             case 'B' -> System.out.println("Board");
             default -> System.out.println("Lutfen gecerli bir harf giriniz");
         }
+        scanner.close();
     }
 }
