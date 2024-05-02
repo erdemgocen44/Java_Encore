@@ -14,5 +14,9 @@ public class C20_String_Manupulation2 {
 
         System.out.println(str.charAt(13 - 3));
 
+        System.out.println(str.toUpperCase().charAt(13 - 3));
+        
+        System.out.println(str.concat("a"));
+
     }
 }
