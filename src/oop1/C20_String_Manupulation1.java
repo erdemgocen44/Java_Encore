@@ -1,5 +1,7 @@
 package oop1;
 
+import java.util.Locale;
+
 public class C20_String_Manupulation1 {
     public static void main(String[] args) {
 
@@ -22,9 +24,7 @@ public class C20_String_Manupulation1 {
         str = str.toLowerCase();
         System.out.println(str);
 
+        System.out.println(str.toUpperCase(Locale.FRANCE));
 
-
-
-        
     }
 }
