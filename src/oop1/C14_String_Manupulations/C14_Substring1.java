@@ -31,5 +31,7 @@ public class C14_Substring1 {
 
         System.out.println(str.substring(str.length() - 3).toUpperCase());
 
+        
+
     }
 }
