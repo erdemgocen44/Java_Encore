@@ -12,5 +12,15 @@ public class C14_Soru {
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("Lutfen bir mail adresi giriniz : ");
+
+        String mail = scanner.nextLine();
+
+        if (!mail.contains("mail"))
+            System.out.println("Gecersiz mail.Tekrar deneyiniz!");
+        else if (!mail.contains("@gmail.com"))
+            System.out.println("Verdiginiz mail gmail olmali");
+        else if (!mail.endsWith("@gmail.com"))
+            System.out.println("Mailde yazim hatasi olustu.Lutfen tekrar deneyiniz");
+
     }
 }
