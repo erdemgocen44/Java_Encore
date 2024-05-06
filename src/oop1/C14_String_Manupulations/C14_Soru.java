@@ -1,5 +1,7 @@
 package oop1.C14_String_Manupulations;
 
+import java.util.Scanner;
+
 public class C14_Soru {
     public static void main(String[] args) {
         /*
@@ -21,6 +23,11 @@ public class C14_Soru {
             System.out.println("Verdiginiz mail gmail olmali");
         else if (!mail.endsWith("@gmail.com"))
             System.out.println("Mailde yazim hatasi olustu.Lutfen tekrar deneyiniz");
+        else if (!mail.endsWith(".com"))
+            System.out.println("Mail '.com' ile bitmeli");
+
+        else
+            System.out.println("Mail adresiniz : " + mail);
 
     }
 }
