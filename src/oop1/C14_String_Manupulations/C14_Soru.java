@@ -1,0 +1,16 @@
+package oop1.C14_String_Manupulations;
+
+public class C14_Soru {
+    public static void main(String[] args) {
+        /*
+         * SORU: kullanicidan bir mail alin
+         * - mail@icermiyorsa "gecersiz mail"
+         * -mail @gmail.com icermiyorsa, "mail gmail olmali"
+         * -mail @gmail.com ile bitmiyorsa, "mailde yazim hatasi var" yazdirin.
+         */
+
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.println("Lutfen bir mail adresi giriniz : ");
+    }
+}

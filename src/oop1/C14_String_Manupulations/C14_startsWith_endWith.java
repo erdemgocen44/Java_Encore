@@ -17,5 +17,9 @@ public class C14_startsWith_endWith {
 
         System.out.println(str.startsWith("ok", 6));// true
 
+        // str el mi biter
+
+        System.out.println(str.endsWith("el"));// true
+
     }
 }
