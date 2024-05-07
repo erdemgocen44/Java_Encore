@@ -25,5 +25,7 @@ public class C14_IndexOf {
         } else
             System.out.println("En az bir kere kullanilmistir");
 
+        int ikinciIndex = str.indexOf("at", ilkIndex);
+
     }
 }
