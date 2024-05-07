@@ -25,7 +25,11 @@ public class C14_IndexOf {
         } else
             System.out.println("En az bir kere kullanilmistir");
 
-        int ikinciIndex = str.indexOf("at", ilkIndex);
+        int ikinciIndex = str.indexOf("at", ilkIndex);// -1 veya 2.defa kullanilmissa dogal sayi olur
+        if (ikinciIndex == -1) {
+            System.out.println("iki kere kullanilmamistir");
+        } else
+            System.out.println("2 defa veya daha fazla kullanilmis");
 
     }
 }
