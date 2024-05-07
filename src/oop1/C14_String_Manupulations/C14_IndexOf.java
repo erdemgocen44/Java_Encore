@@ -18,7 +18,12 @@ public class C14_IndexOf {
 
         System.out.println(str.indexOf("at"));// bir kere kullanilmis
 
-        System.out.println(str.indexOf("at", str.indexOf("top") + 1));
+        int ilkIndex = str.indexOf("at");
+
+        if (ilkIndex == -1) {// hic kullanilmamis demektir
+            System.out.println("iki kere kullanilmamistir");
+        } else
+            System.out.println("En az bir kere kullanilmistir");
 
     }
 }
