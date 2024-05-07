@@ -19,6 +19,7 @@ public class C14_nullPointer {
 
         System.out.println(str2);
         System.out.println(str2 + " candir");// null candir
+        System.out.println(str2.concat(" candir"));//Null pointer Exception
 
     }
 }
