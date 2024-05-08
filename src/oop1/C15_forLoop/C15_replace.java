@@ -14,11 +14,23 @@ public class C15_replace {
         // replaceAll(istenenGrup, yeniDeger)
         // ornegin butun sayilarin yerine "" atamak icin
 
+        /*
+         * Regular Expressions
+         * \\s: space
+         * \\s+: yanyana birden fazla space
+         * \\S: space olmayan hersey
+         * \\d: digits yani sayilar
+         * \\D: digit olmayan hersey harf veya karakterler
+         * \\w: harf veya rakam
+         * \\W: harf veya rakam olmayan hersey
+         * seçmemize yarar ornegi asagida
+         */
+
         String str2 = "1Ja4va 8C9a5n7d11ir125";
 
         System.out.println(str2);
 
-        str = str2.replaceAll("\\d", "");
+        str = str2.replaceAll("\\S", "");
 
         System.out.println(str);
 
