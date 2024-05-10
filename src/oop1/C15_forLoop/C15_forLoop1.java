@@ -1,12 +1,19 @@
 package oop1.C15_forLoop;
 
+import java.util.Scanner;
+
 public class C15_forLoop1 {
     public static void main(String[] args) {
 
-        int input = 20;
+        Scanner scanner = new Scanner(System.in);
 
-        for (int i = input; i < input + 10; i++) {
-            System.out.print(i + " ,");
+        System.out.println("Lutfen 5'er 5'er artirmak icin bir sayi giriniz: ");
+
+        int girilenSayi = scanner.nextInt();
+
+        for (int i = girilenSayi; i < 100; i++) {
+            System.out.print(girilenSayi + " ,");
+            girilenSayi += 5;
         }
     }
 }
