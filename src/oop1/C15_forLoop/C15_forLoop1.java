@@ -11,9 +11,9 @@ public class C15_forLoop1 {
 
         int girilenSayi = scanner.nextInt();
 
-        for (int i = girilenSayi; i < 100; i++) {
-            System.out.print(girilenSayi + " ,");
-            girilenSayi += 5;
+        for (int i = girilenSayi; i <= 100; i += 5) {
+            System.out.print(i);
+
         }
     }
 }
