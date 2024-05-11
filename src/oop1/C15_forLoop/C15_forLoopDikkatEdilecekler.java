@@ -12,10 +12,12 @@ public class C15_forLoopDikkatEdilecekler {
         // 2) baslangic degeri ve degisim sekli
         // hicbir zaman bitis degerine ulasamazsa
         // cunku sonsuz loop olusur
-        for (int i = 0; i >= 10; i++) {
+        // for (int i = 0; i >= 10; i++) {
 
-            System.out.println(i + ", ");
+        //     System.out.println(i + ", ");
 
-        }
+        // }
+
+        
     }
 }
