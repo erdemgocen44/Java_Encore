@@ -19,7 +19,10 @@ public class C15_forLoop_Soru {
         String soyisim = scanner.nextLine();
 
         if (isim.length() > soyisim.length())
-            System.out.println(isim.startsWith(isim.toUpperCase()) + " " + soyisim.toLowerCase());
-
+            System.out.println(isim.toUpperCase().charAt(0) + " " + soyisim.toUpperCase().charAt(0));
+        else if (soyisim.length() > isim.length())
+            System.out.println(isim.toUpperCase().charAt(0) + " " + soyisim.toUpperCase());
+        else
+            System.out.println("Lutfen gecerli bir isim-soyisim giriniz");
     }
 }
