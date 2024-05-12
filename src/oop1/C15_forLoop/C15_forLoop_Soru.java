@@ -19,7 +19,7 @@ public class C15_forLoop_Soru {
         String soyisim = scanner.nextLine();
 
         if (isim.length() > soyisim.length())
-            System.out.println(isim.charAt(0) + "," + soyisim.charAt(0));
+            System.out.println(isim.startsWith(isim.toUpperCase()) + " " + soyisim.toLowerCase());
 
     }
 }
