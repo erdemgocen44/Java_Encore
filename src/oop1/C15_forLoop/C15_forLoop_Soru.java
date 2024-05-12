@@ -19,9 +19,11 @@ public class C15_forLoop_Soru {
         String soyisim = scanner.nextLine();
 
         if (isim.length() > soyisim.length())
-            System.out.println(isim.toUpperCase().charAt(0) + " " + soyisim.toUpperCase().charAt(0));
+            System.out.println(isim.substring(0, 1).toUpperCase() + isim.substring(1).toLowerCase() + " "
+                    + soyisim.substring(0, 1).toUpperCase() + soyisim.substring(1).toLowerCase());
         else if (soyisim.length() > isim.length())
-            System.out.println(isim.toUpperCase().charAt(0) + " " + soyisim.toUpperCase());
+            System.out.println(isim.substring(0, 1).toUpperCase() + isim.substring(1).toLowerCase() + " "
+                    + soyisim.toUpperCase());
         else
             System.out.println("Lutfen gecerli bir isim-soyisim giriniz");
     }
