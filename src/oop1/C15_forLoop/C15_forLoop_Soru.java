@@ -18,5 +18,8 @@ public class C15_forLoop_Soru {
         System.out.println("Lutfen soyisminizi giriniz: ");
         String soyisim = scanner.nextLine();
 
+        if (isim.length() > soyisim.length())
+            System.out.println(isim.charAt(0) + "," + soyisim.charAt(0));
+
     }
 }
