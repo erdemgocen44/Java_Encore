@@ -32,7 +32,22 @@ public class C15_forLoop_Sifre_Sorusu {
 
         if (!(ilkHarf >= 'a' && ilkHarf <= 'z'))
             System.out.println("Ilk harf kucuk harf olmali");
+        flag = false;
 
-        // son karakter rakam olamli
+        // son karakter rakam olmali
+
+        char sonKarakter = sifre.charAt(sifre.length() - 1);
+
+        if (!(sonKarakter >= 0 && sonKarakter <= 9))
+            System.out.println("Son karakter rakam olmali");
+        flag = false;
+
+        // sifre bosluk icermemeli
+
+        if (!(sifre.contains(" ")))
+            System.out.println("Sifre bosluk icermemeli");
+            flag=false;
+
+        // uzunlugu en az 10 karakter olmali
     }
 }
