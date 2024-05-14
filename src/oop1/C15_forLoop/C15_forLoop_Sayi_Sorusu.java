@@ -9,5 +9,7 @@ public class C15_forLoop_Sayi_Sorusu {
          * tum sayilarin toplamini yazdirin. Bitis degeri baslangic
          * degerinden kucukse, uyari yazdirip islemi sonlandirin
          */
+
+        
     }
 }
