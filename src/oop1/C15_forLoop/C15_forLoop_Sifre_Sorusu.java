@@ -38,16 +38,22 @@ public class C15_forLoop_Sifre_Sorusu {
 
         char sonKarakter = sifre.charAt(sifre.length() - 1);
 
-        if (!(sonKarakter >= 0 && sonKarakter <= 9))
+        if (!(sonKarakter >= '0' && sonKarakter <= '9'))
             System.out.println("Son karakter rakam olmali");
         flag = false;
 
         // sifre bosluk icermemeli
 
-        if (!(sifre.contains(" ")))
+        if (sifre.contains(" "))
             System.out.println("Sifre bosluk icermemeli");
-            flag=false;
+        flag = false;
 
         // uzunlugu en az 10 karakter olmali
+
+        if (!(sifre.length() >= 10))
+            System.out.println("Sifre en az 10 karakter olmali");
+        flag = false;
+
+        System.out.println("Sifreniz basarili sekilde kaydedildi: " + sifre);
     }
 }
