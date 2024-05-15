@@ -1,5 +1,7 @@
 package oop1.C15_forLoop;
 
+import java.util.Scanner;
+
 public class C15_forLoop_Sayi_Sorusu {
     public static void main(String[] args) {
 
@@ -10,6 +12,7 @@ public class C15_forLoop_Sayi_Sorusu {
          * degerinden kucukse, uyari yazdirip islemi sonlandirin
          */
 
-        
+        Scanner scanner = new Scanner(System.in);
+
     }
 }
