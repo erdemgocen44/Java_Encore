@@ -14,9 +14,10 @@ public class C15_forLoop_Sayi_Sorusu {
 
         Scanner scanner = new Scanner(System.in);
         System.out.println("Lütfen bir baslangic degeri girin: ");
-        int baslangic=scanner.nextInt();
-        
-        
+        int baslangic = scanner.nextInt();
+        System.out.println("Lutfen bitis degerini girin: ");
+        int bitis = scanner.nextInt();
+
         scanner.close();
 
     }
