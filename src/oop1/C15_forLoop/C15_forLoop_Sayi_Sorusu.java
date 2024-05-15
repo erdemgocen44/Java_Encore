@@ -13,6 +13,11 @@ public class C15_forLoop_Sayi_Sorusu {
          */
 
         Scanner scanner = new Scanner(System.in);
+        System.out.println("Lütfen bir baslangic degeri girin: ");
+        int baslangic=scanner.nextInt();
+        
+        
+        scanner.close();
 
     }
 }
