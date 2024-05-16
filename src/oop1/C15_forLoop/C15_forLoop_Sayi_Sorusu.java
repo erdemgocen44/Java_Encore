@@ -19,10 +19,16 @@ public class C15_forLoop_Sayi_Sorusu {
         int bitis = scanner.nextInt();
 
         System.out.println("************************");
+        if (bitis < baslangic) {
+            System.out.println("Bitis degeri baslangic degerinden kucuk olamaz!");
+            return;
+        }
+        int sum = 0;
         for (int i = baslangic; i < bitis; i++) {
-            System.out.println(i);
+            sum += i;
 
         }
+        System.out.println(baslangic + " ile " + bitis + " sayilarinin arasindaki sayilarin toplami: " + sum);
 
         scanner.close();
 
