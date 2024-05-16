@@ -18,6 +18,12 @@ public class C15_forLoop_Sayi_Sorusu {
         System.out.println("Lutfen bitis degerini girin: ");
         int bitis = scanner.nextInt();
 
+        System.out.println("************************");
+        for (int i = baslangic; i < bitis; i++) {
+            System.out.println(i);
+
+        }
+
         scanner.close();
 
     }
