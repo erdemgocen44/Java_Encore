@@ -14,5 +14,12 @@ public class C15_forLoop_Stringi_Ters_Cevir {
         for (int i = str.length() - 1; i >= 0; i--) {
             System.out.print(str.charAt(i));
         }
+
+        // terse cevrilmis halini kaydedelim.
+        String tersStr = "";
+
+        for (int i = str.length() - 1; i >= 0; i--) {
+            tersStr += str.charAt(i);
+        }
     }
 }
