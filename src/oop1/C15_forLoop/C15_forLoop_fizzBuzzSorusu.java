@@ -18,15 +18,15 @@ public class C15_forLoop_fizzBuzzSorusu {
 
         System.out.println("Lutfen pozitif bir sayi giriniz: ");
         int girilenSayi = scanner.nextInt();
-        for (int i = 0; i < girilenSayi; i++) {
-            if (girilenSayi % 3 == 0 && girilenSayi % 5 == 0)
-                System.out.println("fizzbuzz");
-            else if (girilenSayi % 3 == 0)
-                System.out.println("fizz");
-            else if (girilenSayi % 5 == 0)
-                System.out.println("buzz");
+        for (int i = 1; i <= girilenSayi; i++) {
+            if (i % 3 == 0 && i % 5 == 0)
+                System.out.print("fizzbuzz\n");
+            else if (i % 3 == 0)
+                System.out.print("fizz ");
+            else if (i % 5 == 0)
+                System.out.print("buzz ");
             else
-                System.out.println(i);
+                System.out.print(i + " ");
         }
 
     }
