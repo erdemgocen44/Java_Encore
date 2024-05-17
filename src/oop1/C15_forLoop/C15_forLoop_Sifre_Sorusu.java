@@ -55,5 +55,6 @@ public class C15_forLoop_Sifre_Sorusu {
         flag = false;
 
         System.out.println("Sifreniz basarili sekilde kaydedildi: " + sifre);
+        scanner.close();
     }
 }

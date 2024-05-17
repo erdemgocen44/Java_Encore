@@ -36,5 +36,6 @@ public class C15_replaceAll_Soru {
 
         System.out.println("Metninizin yeni hali su sekildedir: " + girilenMetin);
 
+        scanner.close();
     }
 }

@@ -20,5 +20,6 @@ public class C15_forLoop_Factoriel_Sorusu {
             carpim *= i;
         }
         System.out.println("Girilen sayi olan " + sayi + "! = " + carpim);
+        scanner.close();
     }
 }

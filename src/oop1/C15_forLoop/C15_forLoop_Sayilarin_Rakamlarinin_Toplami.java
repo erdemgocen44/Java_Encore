@@ -15,11 +15,13 @@ public class C15_forLoop_Sayilarin_Rakamlarinin_Toplami {
         int sayi = scanner.nextInt();
 
         int toplam = 0;
+
         for (int i = sayi; i > 0; i /= 10) {
             toplam += i % 10;
 
         }
 
-        System.out.println("Girilen sayi rakamlarinin toplami: " + toplam);
+        System.out.println("Girilen sayinin rakamlar toplami: " + toplam);
+        scanner.close();
     }
 }
