@@ -10,5 +10,16 @@ public class C15_forLoop_Factoriel_Sorusu {
 
         Scanner scanner = new Scanner(System.in);
 
+        System.out.println("Lutfen 20'den kucuk bir tam sayi giriniz: ");
+
+        int sayi = scanner.nextInt();
+
+        int factoriel = 1;
+
+        for (int i = 0; i < sayi; i++) {
+            System.out.println(i);
+            int sayi = sayi * sayi;
+        }
+
     }
 }
