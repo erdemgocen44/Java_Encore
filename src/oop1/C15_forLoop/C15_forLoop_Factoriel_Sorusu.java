@@ -14,12 +14,11 @@ public class C15_forLoop_Factoriel_Sorusu {
 
         int sayi = scanner.nextInt();
 
-        int factoriel = 1;
+        int carpim = 1;
 
-        for (int i = 0; i < sayi; i++) {
-            System.out.println(i);
-            int sayi = sayi * sayi;
+        for (int i = 1; i <= sayi; i++) {
+            carpim *= i;
         }
-
+        System.out.println("Girilen sayi olan " + sayi + "! = " + carpim);
     }
 }
