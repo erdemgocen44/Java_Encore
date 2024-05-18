@@ -19,6 +19,6 @@ public class C11_If3_Soru_Cozumu1 {
             System.out.println("Bu " + sayi + " sayisi 5 ile bölünebilir ");
         else
             System.out.println("Bu " + sayi + " sayisi 5 ile bölünemez ");
-
+        scanner.close();
     }
 }

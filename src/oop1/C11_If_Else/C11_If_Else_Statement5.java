@@ -30,5 +30,6 @@ public class C11_If_Else_Statement5 {
                 System.out.println("Maalesef emekli olmak icin " + (60 - yas) + " yil daha calismaniz gerekir");
         else
             System.out.println("Yanlis karakter girdiniz");
+        scanner.close();
     }
 }

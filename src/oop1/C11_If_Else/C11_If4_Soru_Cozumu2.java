@@ -23,6 +23,6 @@ public class C11_If4_Soru_Cozumu2 {
         } else {
             System.out.println(girilenSayi + " sayisi 3 veya 5 ile bolunemez");
         }
-
+        scanner.close();
     }
 }

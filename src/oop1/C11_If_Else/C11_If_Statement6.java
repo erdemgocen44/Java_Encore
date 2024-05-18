@@ -21,5 +21,6 @@ public class C11_If_Statement6 {
             System.out.println(harf + " harfi kucuk harftir");
         else
             System.out.println("Lutfen gecerli bir harf giriniz");
+        scanner.close();
     }
 }
