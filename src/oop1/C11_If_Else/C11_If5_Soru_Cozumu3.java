@@ -25,6 +25,6 @@ public class C11_If5_Soru_Cozumu3 {
             System.out.println("Girilen deger eksi (-) bir sayi olamaz!!");
         else
             System.out.println("Bu bir eskenar ucken degildir");
-
+        scanner.close();
     }
 }
