@@ -52,6 +52,6 @@ public class C04_WrapperClasses {
         // bunu büyütmek için;
 
         System.out.println("chr=" + Character.toUpperCase(chr));
-
+        scanner.close();
     }
 }
