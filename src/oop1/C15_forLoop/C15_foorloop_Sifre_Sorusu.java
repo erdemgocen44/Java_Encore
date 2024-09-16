@@ -17,7 +17,14 @@ public class C15_foorloop_Sifre_Sorusu {
         System.out.println("Lutfen sirasiyla isim ve soyisminizi giriniz : ");
         String isim = scanner.nextLine();
         String soyisim = scanner.nextLine();
-        
 
+        if (isim.length() > soyisim.length())
+            System.out.println(isim.substring(0, 1).toUpperCase() + isim.substring(1).toLowerCase() + " "
+                    + soyisim.substring(0, 1).toUpperCase() + soyisim.substring(1).toLowerCase());
+        else {
+            System.out.println(isim.substring(0, 1).toUpperCase() + isim.substring(1).toLowerCase() + " "
+                    + soyisim.substring(0).toUpperCase());
+        }
+        scanner.close();
     }
 }
