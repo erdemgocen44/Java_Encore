@@ -12,7 +12,7 @@ public class C15_replaceAll_Soru {
 
         Scanner scanner = new Scanner(System.in);
 
-        System.out.println("Lutfen bir metin giriniz: ");
+        System.out.println("Lütfen bir metin giriniz: ");
 
         String girilenMetin = scanner.nextLine();
         // once sayilardan kurtulalim
