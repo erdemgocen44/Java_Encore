@@ -1,5 +1,7 @@
 package oop1.C15_forLoop;
 
+import java.util.Scanner;
+
 public class C15_forLoop_sifreSorusu {
     public static void main(String[] args) {
         /*
@@ -11,5 +13,12 @@ public class C15_forLoop_sifreSorusu {
          * - sifre bosluk icermemeli
          * - uzunlugu en az 10 karakter olmali I
          */
+
+         Scanner scanner=new Scanner(System.in);
+
+         System.out.println("Lutfen sifrenizi giriniz: ");
+
+         
+         
     }
 }
