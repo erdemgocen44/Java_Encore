@@ -14,11 +14,19 @@ public class C15_forLoop_sifreSorusu {
          * - uzunlugu en az 10 karakter olmali I
          */
 
-         Scanner scanner=new Scanner(System.in);
+        boolean flag = true;
 
-         System.out.println("Lutfen sifrenizi giriniz: ");
+        Scanner scanner = new Scanner(System.in);
 
-         
-         
+        System.out.println("Lutfen sifrenizi giriniz: ");
+
+        String sifre = scanner.nextLine();
+
+        char ilkHarf = sifre.charAt(0);
+
+        if (!(ilkHarf >= 'a' && ilkHarf <= 'z'))
+            System.out.println("Ilk harf küçük harf olmalı");
+        flag = false;
+
     }
 }
