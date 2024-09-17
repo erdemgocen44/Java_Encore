@@ -27,15 +27,22 @@ public class C15_forLoop_sifreSorusu {
         char sonKarakter = sifre.charAt(sifre.length() - 1);
 
         if (!(ilkHarf >= 'a' && ilkHarf <= 'z'))
-            System.out.println("Ilk harf küçük harf olmalı");
+            System.out.println("Sifrenin ilk harfi küçük harf olmalı");
         flag = false;
 
         if (!(sonKarakter >= '0' && sonKarakter <= '9'))
-            System.out.println("Son karakter sayi olmali");
+            System.out.println("Sifrenin son karakteri sayi olmali");
         flag = false;
 
         if (sifre.contains(" "))
             System.out.println("Sifre bosluk icermemeli");
         flag = false;
+
+        if (!(sifre.length() >= 10))
+            System.out.println("Sifre en az 10 karakter olmali");
+        flag = false;
+
+        System.out.println(sifre + " :Sifreniz basarili sekilde kaydedildi");
+        scanner.close();
     }
 }
