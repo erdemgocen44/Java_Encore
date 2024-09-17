@@ -24,9 +24,18 @@ public class C15_forLoop_sifreSorusu {
 
         char ilkHarf = sifre.charAt(0);
 
+        char sonKarakter = sifre.charAt(sifre.length() - 1);
+
         if (!(ilkHarf >= 'a' && ilkHarf <= 'z'))
             System.out.println("Ilk harf küçük harf olmalı");
         flag = false;
 
+        if (!(sonKarakter >= '0' && sonKarakter <= '9'))
+            System.out.println("Son karakter sayi olmali");
+        flag = false;
+
+        if (sifre.contains(" "))
+            System.out.println("Sifre bosluk icermemeli");
+        flag = false;
     }
 }
