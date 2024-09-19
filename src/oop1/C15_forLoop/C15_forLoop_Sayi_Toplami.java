@@ -26,8 +26,10 @@ public class C15_forLoop_Sayi_Toplami {
         } else {
             int toplam = 0;
             for (int i = baslangic; i <= bitis; i++) {
-                System.out.println("Verdiginiz sayilarin toplami : " + i);
+                // toplam=toplam+i
+                toplam += i;
             }
+            System.out.println("Sinirlar arasindaki sayilarin toplami : " + toplam);
         }
 
     }
