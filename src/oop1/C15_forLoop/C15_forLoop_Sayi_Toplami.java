@@ -1,5 +1,7 @@
 package oop1.C15_forLoop;
 
+import java.util.Scanner;
+
 public class C15_forLoop_Sayi_Toplami {
     public static void main(String[] args) {
         /*
@@ -8,6 +10,16 @@ public class C15_forLoop_Sayi_Toplami {
          * Bitis degeri baslangic degerinden kucukse,
          * uyari yazdirip islemi sonlandirin
          */
+
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.println("Lutfen bir baslangic sayisi giriniz : ");
+
+        int baslangic = scanner.nextInt();
+
+        System.out.println("Lütfen bir degeri giriniz : ");
+
+        int bitis = scanner.nextInt();
 
     }
 }
