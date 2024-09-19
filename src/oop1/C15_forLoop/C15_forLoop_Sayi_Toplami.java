@@ -17,9 +17,18 @@ public class C15_forLoop_Sayi_Toplami {
 
         int baslangic = scanner.nextInt();
 
-        System.out.println("Lütfen bir degeri giriniz : ");
+        System.out.println("Lütfen bir bitis degeri giriniz : ");
 
         int bitis = scanner.nextInt();
+
+        if (bitis < baslangic) {
+            System.out.println("Bitis degeri baslangic degerinden yuksek olmali");
+        } else {
+            int toplam = 0;
+            for (int i = baslangic; i <= bitis; i++) {
+                System.out.println("Verdiginiz sayilarin toplami : " + i);
+            }
+        }
 
     }
 }
