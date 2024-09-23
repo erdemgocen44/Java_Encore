@@ -21,12 +21,12 @@ public class C15_forLoop_FizzBuzz {
         int sayi = scanner.nextInt();
 
         for (int i = 1; i <= sayi; i++) {
+            if (i % 3 == 0 && i % 5 == 0)
+                System.out.println("fizzbuzz : " + i);
             if (i % 3 == 0)
                 System.out.println("fizz : " + i);
             if (i % 5 == 0)
                 System.out.println("buzz : " + i);
-            if (i % 3 == 0 && i % 5 == 0)
-                System.out.println("fizzbuzz : " + i);
         }
 
     }
