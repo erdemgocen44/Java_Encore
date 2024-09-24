@@ -16,7 +16,7 @@ public class C15_forLoop_FizzBuzz {
 
         Scanner scanner = new Scanner(System.in);
 
-        System.out.println("Lutfen pozitif bir sayi giriniz: ");
+        System.out.println("Lutfen. pozitif bir sayi giriniz: ");
 
         int sayi = scanner.nextInt();
 
